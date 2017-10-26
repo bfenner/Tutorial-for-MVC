@@ -5,12 +5,12 @@ class Adresse{
 	protected $hausnummer = '';
 	protected $city = '';
 	
-	public function_construct(array $daten  []){
+	public function __construct(array $daten = []){
 		
 		$this->setDaten($daten);
 	}
 	
-	publicfunction setDaten(array $daten){
+	public function setDaten(array $daten){
 		if($daten){
 			foreach ($daten as $k => $v){
 				$setterName = 'set' . ucfirst($k);
