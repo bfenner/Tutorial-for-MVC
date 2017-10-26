@@ -6,6 +6,6 @@ require_once 'src/Entities/Adresse.php';
 
 $person = findePerson(0);
 
-require_once 'templates/zeige_buch.tpl.php';
+require_once 'templates/zeige_person.tpl.php';
 ?>
 
